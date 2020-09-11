@@ -71,7 +71,7 @@ header .profile-image {
   height: 203px;
   border-radius: 20%;
   border: 3px solid #16262E;
-  transition: all .25s;
+  transition: all 1.4s;
 }
 header .hobby-image:hover {
   transform: scale(1.2) rotate(360deg);
@@ -82,10 +82,12 @@ header .hobby-image {
   height: 303px;
   border-radius: 60%;
   border: 3px solid #16262E;
-  transition: all .15s;
+  transition: all 2s;
+  transition-timing-function: ease;
+
 }
 header .profile-image:hover {
-  transform: scale(0.5) translate(-100%, -100%);
+  transform: scaleY(1.5) scaleX(1.5);
 }
 .tag {
   background-color: #264D56;
