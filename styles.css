@@ -83,8 +83,6 @@ header .hobby-image {
   border-radius: 60%;
   border: 3px solid #16262E;
   transition: all 2s;
-  transition-timing-function: ease;
-
 }
 header .profile-image:hover {
   transform: scaleY(1.5) scaleX(1.5);
